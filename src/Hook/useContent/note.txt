@@ -1,0 +1,7 @@
+- Usecontent được sinh ra vì truyền prop quá nhiều cấp. Nếu dùng useContent thì chỉ truyền một cấp
+- Khi nào cần thì gọi biến content đó ra sài không nó giống  như một biến global
+Muốn sử dụng biến global phải sử dụng useContent
+=> Nó giống như một khớp nối
+1. create context 
+2. provider
+3. Consumer

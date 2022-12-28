@@ -1,0 +1,15 @@
+/*
+  useLayoutEffect avaf useEffect hoặc động gần giống nhau
+  ** UseEffect=> Cải thiện giao diện người dùng
+    1. Cập nhật lại state 
+    2. Cập nhật lại Dom (mutated)
+    3. Render lại UI
+    4. Gọi cleanup 
+    5. Gọi useEffect callbak
+  ** useLayoutEffect 
+    1. Cập nhật lại state 
+    2. Cập nhật lại Dom (mutated)
+    3. Gọi cleanup nếu deps thay đổi (sync)
+    4. Gọi useLayoutEffect callback(sync)
+    5. Render lại UI
+ */

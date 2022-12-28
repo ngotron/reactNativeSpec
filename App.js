@@ -1,20 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+// import AddFriend from "./src/Render/AddFriend"
+
+import Main from "./src/Hook/useState/Main"
+
+// import Toggle from "./src/Hook/useLayoutEffect/Toggle"
+
+// import Children from "./src/Hook/useContent/Childprop"
+
+// import Toggle from "./src/Hook/useLayoutEffect/Toggle"
+
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+    // <AddFriend />
+    // <Toggle />
+    // <Children />
+    // <Main />
+    // <Toggle />
+    // <UseRef />
+    // <UeState/>
+    <Main />
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  )
+}
+export default App
